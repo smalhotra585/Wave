@@ -489,6 +489,7 @@ body{
     font-weight: 700;
     color: #4d5666;
     margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 @media (max-width: 480px){
@@ -810,6 +811,7 @@ footer span.copyright {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+    font-size: medium;
 }
 footer ul.quicklinks {
     color: #fff;
