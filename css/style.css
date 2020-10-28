@@ -783,6 +783,7 @@ section#contact .text-danger {
 }
 
 #btn-xl {
+    display: block;
     color: white;
     background-color: #FFC600;
     border: 0;
