@@ -813,13 +813,14 @@ footer span.copyright {
   text-transform: none;
     font-size: medium;
 }
-footer ul.quicklinks {
+ul.quicklinks {
     color: #fff;
   margin-bottom: 0;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  text-align: center;
 }
 
 .social-buttons a{
@@ -835,10 +836,14 @@ footer ul.quicklinks {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    text-align: center;
 
 }
 .social-buttons a:hover{
     background-color: #FFC600;
+}
+.big a:hover{
+    transform: scale(1.3);
 }
 p.large{
     font-size: 16px;
@@ -927,6 +932,16 @@ ul.social-buttons li a:active {
 }
 .darkmode--activated .latest-news{
     background-color: #fff;
+}
+.darkmode--activated .aboutme{
+    background-color: #222;
+    color: #fff;
+}
+.darkmode--activated .abouttext{
+    color: #fff;
+}
+.darkmode--activated .social-buttons a{
+    background-color: #FFC600;
 }
 @media (max-width: 768px){
     .darkmode-toggle{
